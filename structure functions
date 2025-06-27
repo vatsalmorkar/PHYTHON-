@@ -34,5 +34,19 @@ print(a.strip())
 print(a.swapcase())
 print(a.title())
 print(a.upper())
+.............................................................................
+a=["Python Coding" ,"Java","C","c++"] 
+a.append("html")
+a.copy()
+a.count(10)
+a.extend([4, 5, 6])
+a.index(4)
+a.insert(2, 9)
+a.pop(1)
+a.remove(9)
+a.reverse()
+a.sort()
+
+
 
 
