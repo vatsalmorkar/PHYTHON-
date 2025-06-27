@@ -27,5 +27,12 @@ print(a.rfind("l"))
 print(a.rindex("l"))
 print(a.rpartition(" "))
 print(a.rsplit(" "))
+print(a.split(" "))
+print(a.splitlines())
+print(a.startswith("Hello"))
+print(a.strip())
+print(a.swapcase())
+print(a.title())
+print(a.upper())
 
 
