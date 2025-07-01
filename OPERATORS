@@ -1,0 +1,85 @@
+a=9
+b=12
+print("Addition:",a+b)
+print("Substraction:",a-b)
+print("Multiplication:",a*b) 
+print("Division:",a/b)
+print("Floor Division:",a//b)
+print("Modulas Operator:",a%b)
+print("Exponentiation Operator:",a**b) 
+print("Now,   a=10")
+print("       b=5")       
+a=10
+b=5
+a+=3
+print("addition assignment(+=):",a)
+a-=2
+print("Substraction assignment(-=):",a)
+a *=4
+print("Multiplication assignment(*=):",a)
+a /=2
+print("Division assignment(/=):",a)
+a //= 2
+print("Floor Division Assignment (//=):", a)
+a %= 3
+print("Modulus Assignment (%=):", a)
+a **= 2
+print("Exponentiation Assignment (**=):", a)
+
+print("------------------------------------------------------------")
+print(" ")
+print(" ")
+print(" ")
+print(" COMPARISON OPERATORS ")
+print(" ")
+print("Equals to ")
+x=5
+y=7
+result = x == y
+print(result)
+print(" Not equals to ")
+a = 10
+b = 15
+result = a != b
+print(result)
+print(" Greater than  ")
+m = 2
+n = 15
+result = m > n
+print(result)
+print(" Less than  ")
+p = 8
+q = 12
+result = p < q
+print(result)
+print(" Greater than or equals to   ")
+hp = 10
+dp = 10
+result = hp >= dp
+print(result)
+print("------------------------------------------------------------")
+print(" ")
+print(" ")
+print(" ")
+print(" LOGICAL OPERATORS ")
+print(" ")
+x = True 
+y = False
+result= x and y 
+print(result) 
+print("  ")
+print("  ")
+a = True
+b = False
+result = a or b
+print(result)
+print("  ")
+print("  ")
+z = True
+result = not z
+print(result)
+
+
+
+
+
