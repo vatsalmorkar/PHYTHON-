@@ -1,0 +1,105 @@
+
+x = 12
+if x > 0:
+    if x % 2 == 0:
+        print("Number is positive and even")
+
+
+x = -7
+if x < 0:
+    if x % 2 != 0:
+        print("Number is negative and odd")
+
+
+marks = 75
+if marks >= 50:
+    if marks >= 70:
+        print("Grade A")
+    else:
+        print("Grade B")
+
+
+age = 21
+citizen = True
+if citizen:
+    if age >= 18:
+        print("Eligible to vote")
+
+
+num = 15
+if num > 10:
+    if num < 20:
+        print("Number is between 10 and 20")
+
+
+char = 'o'
+if char in 'aeiou':
+    if char.islower():
+        print("It is a lowercase vowel")
+
+
+x = -9
+if x < 0:
+    if x % 3 == 0:
+        print("Negative and divisible by 3")
+
+
+logged_in = True
+is_admin = False
+if logged_in:
+    if is_admin:
+        print("Access granted")
+    else:
+        print("Access denied")
+
+
+a, b, c = 5, 6, 7
+if a + b > c:
+    if b + c > a:
+        if a + c > b:
+            print("Valid triangle")
+
+
+age = 19
+if age >= 18:
+    if age <= 60:
+        print("Eligible for license")
+
+
+balance = 6000
+age = 25
+if balance > 5000:
+    if age >= 18:
+        print("Eligible for premium account")
+
+
+rainy = True
+cold = True
+if rainy:
+    if cold:
+        print("Take an umbrella and wear a jacket")
+
+
+num = 16
+if num % 2 == 0:
+    if num % 4 == 0:
+        print("Even and divisible by 4")
+
+
+marks = 88
+if marks >= 40:
+    if marks >= 85:
+        print("Passed with distinction")
+
+
+year = 1900
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("Leap year")
+        else:
+            print("Not a leap year")
+    else:
+        print("Leap year")
+else:
+    print("Not a leap year")
