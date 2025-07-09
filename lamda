@@ -1,0 +1,42 @@
+nums = [1,2,3]
+result = list(map(lambda x: x * 2, nums))
+print(result)
+print("---------------------")
+print("---------------------")
+multiply = lambda x, y: x * y
+print(multiply(3,4))
+print("---------------------")
+print("---------------------")
+nums = [1,2,3,4]
+evens = list(filter(lambda x: x % 2 == 0,nums))
+print (evens)
+print("---------------------") 
+print("---------------------")
+nums = [1, 2, 3]
+squares = [x**2 for x in nums] 
+print(squares)
+print("---------------------") 
+print("---------------------")
+nums = [1, 2, 3, 4, 5, 6]
+evens = list(filter(lambda x: x % 2 == 0, nums)) # Filter even numbers
+doubled = list(map(lambda x: x * 2, evens)) # Double each
+result = [(x, y) for x, y in zip(evens, doubled)] # Pair original with
+doubled
+print(result)       
+print("---------------------") 
+print("---------------------")
+print("-----Map Examples----")
+words = ['hello', 'world']
+result = list(map(str.upper, words))
+print(result)
+print("---------------------") 
+print("---------------------")
+nums = [1, 2, 3]
+result = list(map(lambda x: x * 2, nums))
+print(result)
+print("---------------------") 
+print("---------------------")
+a = [10, 20, 30]
+b = [1, 2, 3]
+result = list(map(lambda x, y: x + y, a, b))
+print(result)
